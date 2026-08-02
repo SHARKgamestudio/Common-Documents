@@ -1,0 +1,19 @@
+# ---------- html2png_tool ----------
+# Ignore installed dependencies (Playwright + browser), keep the source:
+#   render.js, render.bat, install.bat, package.json, package-lock.json
+html2png_tool/node_modules/
+
+# Generated screenshot PNGs (uncomment to stop tracking them)
+# *.png
+
+# ---------- OS junk ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---------- Visual Studio ----------
+.vs/
+
+# ---------- Logs ----------
+*.log
+npm-debug.log*

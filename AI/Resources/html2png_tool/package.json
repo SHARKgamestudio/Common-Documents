@@ -1,0 +1,13 @@
+{
+  "name": "html2png-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Render HTML files to transparent PNGs, cropped to the top element",
+  "main": "render.js",
+  "scripts": {
+    "render": "node render.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
